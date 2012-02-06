@@ -6,28 +6,43 @@
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title>Open Coworking Directory</title>
+	<link href="main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
 <h1>Open Coworking Directory</h1> 
 
+<h3>Objective</h3>
+	<p>Build an open directory to replace the directory of spaces on the Coworking Wiki.</p>
+
+<h3>Technical Overview</h3>
+	<p>Coworking spaces will publish meta-data points about their space on the main page of their website and
+	register their site with the directory. A spider script will be run at least daily to collect the 
+	meta-data from each site and construct static YAML files which is accessible globally (github).  
+	Javascript widgets can then convert the meta-data into maps and lists that can be easily embedded 
+	into other websites or processes.</p>
+	
+	<p>Meta-data points will only point to publicly accessible data published elsewhere. For example
+	<i>pricing-url</i> vs <i>pricing-info</i>.</p>
+
 <h3>Project Links</h3>
 <ul>
-<li><a href="https://github.com/coworking">Github Project</a></li>
-<li><a href="http://coworking.com">Coworking Homepage</a></li>
-<li><a href="http://wiki.coworking.com">Coworking Wiki</a></li>
+	
+	<li><a href="https://docs.google.com/document/d/1R-eI20e0V1MdaJ-EAO2P3g2-9G9vdMZsmkXIAVQJHYQ/edit">Project Spec</a></li>
+	<li><a href="https://github.com/coworking">Github Project</a></li>
+	<li><a href="http://coworking.com">Coworking Homepage</a></li>
+	<li><a href="http://wiki.coworking.com">Coworking Wiki</a></li>
 </ul>
 
 <h3>Test Sites</h3>
 <ul>
-<li><a href="http://coworking.github.com/test-site-1/">Fake Office Nomads</a></li>
-<li><a href="http://coworking.github.com/test-site-2/">Fake Independents Hall</a></li>
-<li><a href="http://coworking.github.com/test-site-3/">Fake New Work City</a></li>
+	<li><a href="http://coworking.github.com/test-site-1/">Fake Office Nomads</a></li>
+	<li><a href="http://coworking.github.com/test-site-2/">Fake Independents Hall</a></li>
+	<li><a href="http://coworking.github.com/test-site-3/">Fake New Work City</a></li>
 </ul>
 
 <h3>Contributors</h3>
-
 <ul>
 <li><a href="http://jacobsayles.com">Jacob Sayles</a></li>
 <li><a href="http://ingy.net/">Ingy döt Net</a></li>
