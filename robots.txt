@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /test-site-1/
+Disallow: /test-site-2/
+Disallow: /test-site-3/
