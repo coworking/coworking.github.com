@@ -1,0 +1,11 @@
+body {
+	background-color: #aaa;
+	text-align: left;
+	margin-left: 10em;
+	font-family: helvetica;
+	width: 640px;
+}
+
+p { 
+	margin-left: 3em;
+}
